@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { zippyComponent } from './components/zippy/zippy.component';
 
 @Component({
   selector: 'app-root',

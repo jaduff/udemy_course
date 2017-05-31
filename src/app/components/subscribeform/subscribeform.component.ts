@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component ({
     selector: 'subscribe-form',
-    template: `<h1>Test</h1>`
+    templateUrl: './subscribeform.component.html',
+    styleUrls: ['./subscribeform.component.css']
 })
 export class subscribeFormComponent {
 

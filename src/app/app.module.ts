@@ -3,14 +3,15 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {zippyComponent } from './components/zippy/zippy.component';
-
+import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    zippyComponent
+    zippyComponent,
+    subscribeFormComponent 
   ],
   imports: [
     BrowserModule,

@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./subscribeform.component.css']
 })
 export class subscribeFormComponent {
-
+    name: string;
+    email: string;
+    frequency: string;
 }

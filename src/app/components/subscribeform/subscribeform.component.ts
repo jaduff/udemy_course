@@ -10,4 +10,8 @@ export class subscribeFormComponent {
     email: string;
     frequency: string;
 
+    onSubmit(f) {
+        console.log(f);
+    }
+
 }

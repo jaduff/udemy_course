@@ -9,4 +9,5 @@ export class subscribeFormComponent {
     name: string;
     email: string;
     frequency: string;
+
 }

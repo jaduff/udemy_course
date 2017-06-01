@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {zippyComponent } from './components/zippy/zippy.component';
 import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 
@@ -16,7 +17,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

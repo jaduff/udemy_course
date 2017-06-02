@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import {zippyComponent } from './components/zippy/zippy.component';
 import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
 import { CommonModule } from '@angular/common';
+import { signupFormComponent } from './components/signup-form/signup-form.component'; 
 
 import { AppComponent } from './app.component';
 
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent,
     zippyComponent,
-    subscribeFormComponent 
+    subscribeFormComponent ,
+    signupFormComponent
   ],
   imports: [
     BrowserModule,

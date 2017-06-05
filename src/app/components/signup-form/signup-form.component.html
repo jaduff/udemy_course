@@ -1,17 +1,29 @@
-<form>
+<form [formGroup]="form" (ngSubmit)="singup()">
     <div class="form-group">
         <label for="username">Username</label>
         <input
+                        formControlName="username"
             id="username"
             type="text"
             class="form-control">
+            <div
+                class="alert alert-danger"
+                *ngIf="!form.controls.username.valid && form.controls.username.touched">
+                    Username is required.
+            </div>
     </div>
     <div class="form-group">
         <label for="password">Password</label>
         <input
+            formControlName="password"
             id="password"
             type="text"
             class="form-control">
+            <div
+                class="alert alert-danger"
+                *ngIf="!form.controls.password.valid && form.controls.password.touched">
+                    Password is required.
+                </div>
     </div>
     <button class="btn btn-primary" type="submit">Sign Up</button>
 </form>

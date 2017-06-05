@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {zippyComponent } from './components/zippy/zippy.component';
 import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
@@ -20,7 +20,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

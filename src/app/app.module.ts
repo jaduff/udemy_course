@@ -6,6 +6,7 @@ import {zippyComponent } from './components/zippy/zippy.component';
 import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
 import { CommonModule } from '@angular/common';
 import { signupFormComponent } from './components/signup-form/signup-form.component'; 
+import { changepassword } from './components/changepassword/changepassword.component';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     AppComponent,
     zippyComponent,
     subscribeFormComponent ,
-    signupFormComponent
+    signupFormComponent,
+    changepassword
   ],
   imports: [
     BrowserModule,

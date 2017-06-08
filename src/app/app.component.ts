@@ -3,6 +3,7 @@ import { zippyComponent } from './components/zippy/zippy.component';
 import { subscribeFormComponent } from './components/subscribeform/subscribeform.component';
 import { NgForm } from '@angular/forms';
 import { signupFormComponent } from './components/signup-form/signup-form.component';
+import { changepassword } from './components/changepassword/changepassword.component';
 
 @Component({
   selector: 'app-root',
